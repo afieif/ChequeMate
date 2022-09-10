@@ -1,3 +1,3 @@
-const server = "http://localhost:5001/";
+const server = "https://cheque-mate-web.herokuapp.com/";
 
 export default server;
