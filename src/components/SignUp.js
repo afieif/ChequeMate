@@ -4,9 +4,6 @@ import { useAuth } from '../context/UserProvider';
 import { useNavigate } from 'react-router-dom';
 import server from '../proxy';
 
-const emailPattern = /^[a-zA-Z0-9._]+@[a-zA-Z0-9]+[.][a-zA-Z]{2,3}$/;
-
-
 export default function SignUp() {
     const [signup, setSignup] = useState(true);
     const [email,setEmail] = useState('');
@@ -17,15 +14,6 @@ export default function SignUp() {
 
     function submit()
     {
-        if(!emailPattern.test(email))
-        {
-            
-            if(signup)
-            alert("Email invalid!"); 
-            else 
-            alert("Please input valid Email");
-            return;
-        }
 
         if(password.length < 8)
         {
