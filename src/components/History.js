@@ -28,7 +28,7 @@ export default function History() {
     axios({
         method : 'post',
         url : server+'expenses',
-        params : {_id : id}})
+        params : {_id : id, email : currentUser.email}})
         .then((res)=>{
             if(res.data === 'fail')
             {
