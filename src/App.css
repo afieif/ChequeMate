@@ -212,3 +212,59 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media only screen and (min-width: 600px) {
+  .expense-numpad{
+    height: 40vh;
+  }
+
+  .expense-numpad div{
+    padding: 3%;
+  }
+
+  .card-image{
+  transform: rotate(-25deg);
+  margin-right : 90vw;
+  margin-top : 10vh;
+  border-radius: 18px;
+  width: 300px;
+  height: 200px;
+  }
+
+  .onboarding-text{
+    width: 550px;
+    text-align: center;
+  }
+
+  .button{
+    width: 550px;
+  }
+
+  .button:hover{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+  }
+
+  .onboarding{
+    justify-content: flex-start;
+  }
+
+  .signup-text{
+    text-align: center;
+  }
+
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.screen::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.screen {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+}

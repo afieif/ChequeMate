@@ -16,14 +16,14 @@ export default function Onboarding() {
     }, [])
 
   return (
-    <div className='screen'>
+    <div className='screen onboarding'>
         <img src={require('../assets/card.png')} alt='card for aesthetic' className='card-image'/>
         <div className='onboarding-textContainer'>
             <div className='onboarding-text'>
-                Helps You
+                Cheque Mate 💸
             </div>
             <div className='onboarding-text'>
-                Organize Your Expenses 💸
+                Organize Your Expenses
             </div>
         </div>
         <Link to={"signup"}>
