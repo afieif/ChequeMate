@@ -1,6 +1,6 @@
 # ChequeMate 💸
 ### Expense Tracker built using ReactJS, MongoDB and Node.js
-<a href='https://cheque-mate.netlify.app/'>View Live!</a>
+<a href='https://cheque-mate.netlify.app/'>Live Link!</a>
 ## Features
 - Email Login.
 - Setting a budget.
